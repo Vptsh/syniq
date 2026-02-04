@@ -10,7 +10,7 @@ server controlled by the project.
 
 ## Screenshot
 
-![Chai CLI example](https://github.com/Vptsh/syniq-apt-repo/blob/e62475626957e14af9218134f04b09be395d5501/ss.png)
+![Syniq CLI example](https://Vptsh.github.io/syniq/ss.png)
 ---
 
 ## WHY THIS PROJECT EXISTS
@@ -40,7 +40,7 @@ and learning environments.
 
 ---
 
-## WHAT CHAI DOES NOT DO
+## WHAT Syniq DOES NOT DO
 
 - Does not execute commands automatically
 - Does not modify your system
@@ -117,14 +117,33 @@ Requirements:
   go build -o syniq
   sudo mv syniq /usr/local/bin/syniq
 ```
+
+## Install via Prebuilt Packages (Recommended)
+
+Debian / Ubuntu / Zorin (.deb)
+```bash
+wget https://github.com/Vptsh/syniq-releases/releases/download/v0.1.0/syniq_0.1.0_amd64.deb
+sudo dpkg -i syniq_0.1.0_amd64.deb
+```
+
+
+If dependency errors occur:
+```bash
+sudo apt -f install
+```
+
+Fedora / RHEL (.rpm)
+```bash
+sudo rpm -ivh https://github.com/Vptsh/syniq-releases/releases/download/v0.1.0/syniq-0.1.0-1.fc43.x86_64.rpm
+```
+
+Verify Installation
+```bash
+syniq
+```
+
 ---
 
-### APT INSTALLATION (DEBIAN / UBUNTU)
-```bash
-  curl -fsSL https://Vptsh.github.io/syniq-apt-repo/install.sh | bash
-  sudo apt install syniq
-```
----
 
 ## PROJECT STRUCTURE
 ```bash
@@ -159,9 +178,6 @@ explain.go      Command explanation
 
 ## ROADMAP
 
-- RPM repository for Fedora
-- GitHub Actions for releases
-- GPG-signed APT repository
 - Configurable safety levels
 - Optional backend with OAuth
 - Additional LLM providers
