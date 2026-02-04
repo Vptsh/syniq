@@ -1,5 +1,5 @@
-# syniq ☕
-AI-powered Linux command assistant
+# syniq 
+An AI-powered Linux command-line assistant that converts natural language into safe shell commands.
 
 syniq is an open-source, local-first command-line tool that converts natural
 language into accurate and safe Linux shell commands using Google Gemini.
