@@ -1,0 +1,4 @@
+syniq
+*.exe
+*.out
+dist/
