@@ -10,7 +10,7 @@ server controlled by the project.
 
 ## Screenshot
 
-![Syniq CLI example](https://Vptsh.github.io/syniq/ss.png)
+![Syniq CLI example](https://github.com/Vptsh/syniq/blob/dd1e3786da5694951ce92251bac9816a7dad96fe/ss.png)
 ---
 
 ## WHY THIS PROJECT EXISTS
@@ -194,7 +194,9 @@ Please open a GitHub issue or pull request.
 ## CONTACT
 
 Maintainer: Vptsh
+
 Email: psvineet@zohomail.in
+
 If you want changes or new features, open an issue or send an email.
 
 ---
